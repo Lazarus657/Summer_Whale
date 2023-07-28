@@ -1,0 +1,7 @@
+# ninja log v5
+10	356	7118260768378039	CMakeFiles/whale.dir/main.cpp.obj	cb05c5e2f1abbb1e
+30	362	7118260768402990	CMakeFiles/whale.dir/info.cpp.obj	176c4e2e905f599e
+127	536	7118261733568427	whale.exe	5834e57823ecfeb5
+40	179	7117244630959687	CMakeFiles/whale.dir/color.cpp.obj	89862a91f5e071b5
+11	607	7117256838665350	CMakeFiles/whale.dir/hint.cpp.obj	ffff6a1f21092314
+8	126	7118261729551382	CMakeFiles/whale.dir/user.cpp.obj	11c6a4e40a2d4e1e
