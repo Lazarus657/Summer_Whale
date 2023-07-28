@@ -35,9 +35,9 @@ void printOrders();
 
 /// @brief print all order's information
 
-void printOrdersSeller(const char  *id);
+void printOrders4Seller(const char* id);
 
-void printOrdersBuyer(const char *id);
+void printOrders4Buyer(const char *id);
 
 
 #endif //WHALE_ORDER_H

@@ -91,6 +91,12 @@ build CMakeFiles/whale.dir/order.cpp.obj: CXX_COMPILER__whale_Debug C$:/Users/li
   OBJECT_DIR = CMakeFiles\whale.dir
   OBJECT_FILE_DIR = CMakeFiles\whale.dir
 
+build CMakeFiles/whale.dir/menu.cpp.obj: CXX_COMPILER__whale_Debug C$:/Users/lishuainan/CLionProjects/whale/menu.cpp || cmake_object_order_depends_target_whale
+  DEP_FILE = CMakeFiles\whale.dir\menu.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\whale.dir
+  OBJECT_FILE_DIR = CMakeFiles\whale.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target whale
@@ -99,7 +105,7 @@ build CMakeFiles/whale.dir/order.cpp.obj: CXX_COMPILER__whale_Debug C$:/Users/li
 #############################################
 # Link the executable whale.exe
 
-build whale.exe: CXX_EXECUTABLE_LINKER__whale_Debug CMakeFiles/whale.dir/main.cpp.obj CMakeFiles/whale.dir/color.cpp.obj CMakeFiles/whale.dir/hint.cpp.obj CMakeFiles/whale.dir/info.cpp.obj CMakeFiles/whale.dir/user.cpp.obj CMakeFiles/whale.dir/good.cpp.obj CMakeFiles/whale.dir/order.cpp.obj
+build whale.exe: CXX_EXECUTABLE_LINKER__whale_Debug CMakeFiles/whale.dir/main.cpp.obj CMakeFiles/whale.dir/color.cpp.obj CMakeFiles/whale.dir/hint.cpp.obj CMakeFiles/whale.dir/info.cpp.obj CMakeFiles/whale.dir/user.cpp.obj CMakeFiles/whale.dir/good.cpp.obj CMakeFiles/whale.dir/order.cpp.obj CMakeFiles/whale.dir/menu.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\whale.dir
